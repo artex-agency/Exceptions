@@ -1,0 +1,46 @@
+{
+    "name":        "artex/exceptions",
+    "description": "Artex Software's standard PHP exception library for consistent error handling.",
+    "keywords": [
+        "php",
+        "artex",
+        "standard",
+        "exceptions",
+        "php-library",
+        "artex-software",
+        "error-handling",
+        "artex-exceptions",
+        "custom-exceptions",
+        "standard-library",
+        "php-exceptions"
+    ],
+    "type":      "library",
+    "license":   "Apache-2.0",
+    "homepage":  "https://github.com/artex-agency/Exceptions",
+    "support": {
+        "issues": "https://github.com/artex-agency/Exceptions/issues",
+        "source": "https://github.com/artex-agency/Exceptions",
+        "email":  "support@artexsoftware.com"
+    },
+    "authors": [
+        {
+            "name":     "James Gober",
+            "email":    "me@jamesgober.com",
+            "homepage": "https://jamesgober.com/",
+            "role":     "Lead Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Artex\\Exceptions\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    }
+}
